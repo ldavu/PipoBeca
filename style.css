@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #FFF9CA;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+header img {
+    height: 160px;
+}
+
+.center {
+    text-align: center;
+}
+
+nav{
+    background-color: #FFB4B4;
+    height: 90px;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Righteous;
+    font-size: 20px;
+}
+
+.neon a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 17px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.neon a span{
+    position: absolute;
+    display: block;
+}
+
+
+.neon a span:nth-child(3){
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #ffffff);
+}
+
+.neon a:hover span:nth-child(3){
+    left: 100%;
+    transition: 1s;
+    
+}
+
+h1 {
+    font-family: Righteous;
+    color: #FFB4B4;
+    padding-top: 40px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main section img {
+    padding-top: 40px;
+    height: 350px;
+    width: 309px;
+}
+
+figcaption {
+    color: #ffffff;
+    background-color: #FFB4B4;
+    font-family: Righteous;
+    font-size: 20px;
+    width: 309.5px;
+}
+
+.comprar{ 
+    display: flex;
+    justify-content: center;
+    background-color: #FFDEB4;
+    color: white;
+    font-family: Righteous;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #FFDEB4;
+}
