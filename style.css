@@ -118,3 +118,9 @@ figcaption {
 footer {
     background-color: #FFDEB4;
 }
+.agradicimentos, p {
+    text-align: center;
+    font-size: 13px;
+    background-color: #FFB4B4;
+
+}
