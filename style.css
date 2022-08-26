@@ -12,11 +12,11 @@ body {
 }
 
 .container {
-    padding: 0px 50px;
+    padding: 60px 50px;
 }
 
 header img {
-    height: 160px;
+    height: 190px;
 }
 
 .center {
@@ -34,7 +34,9 @@ ul {
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
-    padding: 16px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -47,10 +49,10 @@ nav a {
 .neon a{
     position: relative;
     display: inline-block;
-    padding: 15px 30px;
+    padding: 15px 0px;
     color: #ffffff;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     text-decoration: none;
     font-size: 17px;
     overflow: hidden;

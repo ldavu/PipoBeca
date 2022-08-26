@@ -1,0 +1,54 @@
+.quadrado {
+    position: absolute;
+    width: 700px;
+    height: 105px;
+    left: 200px;
+    top: 180px;
+    background: linear-gradient(68.15deg, #FFB4B4 16.62%, #d6708f 85.61%);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 20px;
+
+}
+.contato-whatsapp {
+    position: relative;
+    left:70px;
+    top: -18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    color: #ffffff;
+    font-family: Righteous;
+}
+.img-whatsapp {
+    position: relative;
+    top: 23px;
+    left: 20px;
+}
+
+.Instagram-contact {
+    position: relative;
+    top: -13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    color: #ffffff;
+    font-family: Righteous;
+}
+.img-instagram {
+    position: relative;
+    top: 40px;
+    left: -350px;
+}
+.contato-instagram {
+    position: relative;
+    left: -300px;
+    top: -7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    color: #ffffff;
+    font-family: Righteous;
+}
+.instagram-publi {
+    position: relative;
+    left: 270px;
+    top: 240px;
+}
