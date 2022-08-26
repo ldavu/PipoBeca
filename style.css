@@ -94,7 +94,8 @@ main {
 main section img {
     padding-top: 40px;
     height: 350px;
-    width: 309px;
+    width: 300px;
+    object-fit: cover;
 }
 
 figcaption {
