@@ -120,7 +120,12 @@ footer {
 }
 .agradicimentos, p {
     text-align: center;
-    font-size: 13px;
+    font-size: 14px;
     background-color: #FFB4B4;
+    color: #341952;
+    
 
 }
+a { 
+    color: inherit; 
+} 
