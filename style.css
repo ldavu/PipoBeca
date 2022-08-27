@@ -16,7 +16,7 @@ body {
 }
 
 header img {
-    height: 190px;
+    height: 160px;
 }
 
 .center {
@@ -31,7 +31,7 @@ nav{
 
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     list-style-type: none;
     align-items: center;
     padding: 20px;
@@ -115,18 +115,31 @@ figcaption {
     font-size: 20px;
     text-align: center;
 }
-
-footer {
-    background-color: #FFDEB4;
-}
 .agradicimentos, p {
     text-align: center;
     font-size: 14px;
     background-color: #FFB4B4;
     color: #341952;
-    
-
 }
-a { 
-    color: inherit; 
-} 
+
+footer {
+    background: linear-gradient(68.15deg, #ffaeae 16.62%, #d6708fc5 85.61%);
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer a {
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+footer li{
+    color: #ffffff;
+    font-family: Righteous;
+}
